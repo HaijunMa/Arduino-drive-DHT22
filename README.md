@@ -5,8 +5,9 @@ First project for Arduino
    凭借熟练的树莓派开发经验，我决定迅速征服它。查看了它的构造图，在实验室找了一个
    温湿度传感器（DHT22），放了一首《年少有为》，在可爱小黄熊的陪伴下，便开始行动了。
    我喜欢利用每一个时间碎片，在下载Arduino IDE的同时我也在Arduino上连接好了传感器。
-   然后写代码，之前用Python写过驱动DHT22的代码，现在用C语言也很快就搞定了。然后预编
-   译代码、上传，在串口监视器中查看，显示温湿度，每2秒更新一次。搞定``:v:
+   然后写代码，之前用Python写过驱动DHT22的代码，Arduino IDE使用C++的简化版本，所以
+   也很快就搞定了。然后预编译代码、上传，在串口监视器中查看，显示温湿度，每2秒更新一
+   次。搞定``:v:
    
 技术细节
 ------------------------
@@ -27,18 +28,19 @@ First project for Arduino
 
 连接图
 --------------------------
-
+![](https://github.com/HaijunMa/Arduino-drive-DHT22/raw/master/image/4.png)
 
 
 实物图
 -----------------------------
 
-
+![](https://github.com/HaijunMa/Arduino-drive-DHT22/raw/master/image/3.jpg)
 
 测试结果
 --------------------------
+![](https://github.com/HaijunMa/Arduino-drive-DHT22/raw/master/image/1.png)
 
-
+![](https://github.com/HaijunMa/Arduino-drive-DHT22/raw/master/image/2.png)
 
 代码描述
 -------------------------
@@ -50,6 +52,6 @@ First project for Arduino
 - 一旦硬件连接完成，你需要添加DHT22库到你的Arduino库文件。
 
 
-Tip
----------------
-**行动起来吧！
+## Tip
+
+### 行动起来吧！:thumbsup:
